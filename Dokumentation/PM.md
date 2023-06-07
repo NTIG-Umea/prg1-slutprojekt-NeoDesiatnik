@@ -13,7 +13,7 @@ Det första jag gjorde var att göra en HashMap, vilket är som en datastruktur/
 Basvalutan satte jag som Svenska Kronor (SEK), alltså har den värdet 1.0.
 Matten jag använde var väldigt simpel, det är bara "(mängd / valuta1) * valuta2.
 För GUI:n använde jag JPanel (jag tycker det är lättare).
-Jag låste storleken med setResizable satt på false.
+Jag låste storleken med setResizable satt på false. (när jag lade upp den så blev det lite konstigt så jag ändrade resizable till true)
 
 ## Positiva erfarenheter
 
