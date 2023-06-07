@@ -1,35 +1,33 @@
 # Titel
 
-Författare och datum.
+Neo Richard Gabriel Bäckström Desiatnik - 07/06/23
 
 ## Inledning
 
-Här beskriver du kortfattat arbetets syfte/mål, arbetssätt, genomförande.
+Målet med arbetet är att skriva ett program som fungerar som en valuta konverterare genom att använda java.
 
 ## Bakgrund
 
 Redovisa arbetets olika delar. Så att läsaren förstår vad du gjort och hur.
-
-Använd gärna bilder för att illustrera.
-
-För att lägga till bilder i markdown. Bilderna kan du ladda upp med Git som vanligt, länka dem med url eller filnamnet.
-
-```
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
-```
-
-![NTI Gymnasiet Umeå Logo](https://raw.githubusercontent.com/jensnti/Webbprojekt/master/mallar/nti_logo_white_umea.svg)
+Det första jag gjorde var att göra en HashMap, vilket är som en datastruktur/array.
+Basvalutan satte jag som Svenska Kronor (SEK), alltså har den värdet 1.0.
+Matten jag använde var väldigt simpel, det är bara "(mängd / valuta1) * valuta2.
+För GUI:n använde jag JPanel (jag tycker det är lättare).
+Jag låste storleken med setResizable satt på false.
 
 ## Positiva erfarenheter
 
-Här beskriver du vad som har gått bra i ditt projekt och analyserar varför. Hur ska du upprepa framgångarna.
+Jag har bättre lärt mig att bättre använda Jpanel, HashMap och ActionListener.
+Generella kodningen har gått bra, har klarat mig utan att fråga om särskild hjälp.
 
 ## Negativa erfarenheter
 
-Här beskriver du det som du anser har gått mindre bra med ditt projekt och analyserar hur du kan undvika detta i framtida projekt.
+När man skulle göra programmet till en .jar fil så har det inte gått jätte bra men jag löste det med lite hjälp från Puffefish (Alfred).
+Jag kunde inte komma på en jättebra layout på programmet men det som jag har funkar okej.
 
 ## Sammanfattning
 
-Här redovisar du dina slutsatser, erfarenheter och lärdomar. Reflektera över din produkt och dess/dina utvecklingsmöjligheter.
-Vad kan vidareutvecklas och finns det utrymme att bygga vidare på projektet.
+Jag har lärt mig mycket om HashMap.
+Jag tycker det är svårt med layout och ideér men det löser sig oftast i slutet.
+Programmet skulle kunna vidareutvecklas genom att lägga till någonting som visar hur mycket av valuta1 behövs för att göra valuta2
+Skulle även kunna ha bättre GUI, den jag har nu är tråkig.
