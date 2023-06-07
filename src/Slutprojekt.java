@@ -59,7 +59,7 @@ public class Slutprojekt extends JFrame {
 
         setTitle("Konvertera Valuta");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setResizable(false);
+        setResizable(true);
         add(panel);
         pack();
         setLocationRelativeTo(null);
